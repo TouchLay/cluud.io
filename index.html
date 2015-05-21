@@ -1,1 +1,297 @@
-Hello World!
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="icon" sizes="192x192" href="cluud_icon.png">
+        <meta name="theme-color" content="#333">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <style>
+        body {
+          font-family: 'Roboto', sans-serif;
+        }
+        #wrapper {
+          position: absolute;
+            display: table !important;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            pointer-events:none;
+        }
+        #logo {
+          display: table-cell;
+  vertical-align: middle;
+
+          pointer-events:none;
+          text-align:center;
+        }
+
+          form {
+            pointer-events: auto;
+          }
+          input.email {
+            border: 1px solid #fff;
+            /* border-radius: 3px 0 0 3px; */
+            padding: 14px 18px 14px 18px;
+            font-size: 16pt;
+            background: rgba(255, 255, 255, .85);
+            color: #333;
+            }
+            #mc-embedded-subscribe {
+              background: #41bcc4;
+              border: none;
+              color: #fff;
+              padding: 15px 15px 15px 15px;
+              margin: 0;
+              font-size: 16pt;
+            }
+
+            .footer-container {
+              background: #41bcc4;
+              border-top: 7px solid #42A2A8;
+            }
+
+            h4 {
+              display: inline;
+              font-family: 'Roboto', sans-serif;
+            }
+
+            a {
+              color: #fff;
+              font-family: 'Roboto', sans-serif;
+            }
+
+            .msg-helper {
+        width: 330px;
+        height: auto;
+        margin:  0 auto;
+        box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.4);
+        /* content: &quot;123&quot;; */
+        padding: 10px;
+        color: #fff;
+        font-size: 16pt;
+        display: none;
+
+            }
+
+            .msg-helper.error {
+              background: #DA5E5E;
+            }
+
+            .msg-helper.success {
+              background: #3AB260;
+            }
+
+            @media (max-width: 900px) {
+              #logo {
+                top: 60%;
+              }
+              #logo img {
+                width: 80%;
+              }
+              #mc-embedded-subscribe {
+                margin-top: 15px !important;
+              }
+
+              .msg-helper {
+                width: 90%;
+                margin-top: 10px;
+                box-shadow: none !important;
+              }
+            }
+        </style>
+    </head>
+    <body style="background: #333;">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="particles-js"></div>
+
+
+<div id="wrapper">
+        <div id="logo">
+          <img src="cluud_web.png">
+
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+          <form action="//touchlay.us6.list-manage.com/subscribe/post-json?u=61192115196961388ececdeb1&amp;id=3bfcf9668c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+          <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address"><input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+          </div>
+          <div class="msg-helper"></div>
+              <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_61192115196961388ececdeb1_3bfcf9668c" tabindex="-1" value=""></div>
+              <div class="clear"></div>
+              </div>
+          </form>
+          </div>
+
+          <!--End mc_embed_signup-->
+        </div>
+      </div>
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h4>&copy; 2015 TouchLay</h4>
+                <h4><a href="http://touchlay.com/impressum.html" style="float: right;">Imprint</a></h4>
+            </footer>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="particle.min.js"></script>
+        <script>
+        particlesJS('particles-js', {
+          particles: {
+            color: '#41bcc4',
+            color_random: false,
+            shape: 'circle', // "circle", "edge" or "triangle"
+            opacity: {
+              opacity: 1,
+              anim: {
+                enable: true,
+                speed: 30,
+                opacity_min: 0,
+                sync: false
+              }
+            },
+            size: 4,
+            size_random: true,
+            nb: 200,
+            line_linked: {
+              enable_auto: true,
+              distance: 100,
+              color: '#41bcc4',
+              opacity: .8,
+              width: 1,
+              condensed_mode: {
+                enable: true,
+                rotateX: 600,
+                rotateY: 600
+              }
+            },
+            anim: {
+              enable: true,
+              speed: 1
+            }
+          },
+          interactivity: {
+            enable: true,
+            mouse: {
+              distance: 200
+            },
+            detect_on: 'canvas', // "canvas" or "window"
+            mode: 'grab', // "grab" of false
+            line_linked: {
+              opacity: .5
+            },
+            events: {
+              onclick: {
+                enable: false,
+                mode: 'push', // "push" or "remove"
+                nb: 4
+              },
+              onresize: {
+                enable: true,
+                mode: 'out', // "out" or "bounce"
+                density_auto: true,
+                density_area: 800 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+              }
+            }
+          },
+          /* Retina Display Support */
+          retina_detect: true
+        });
+          setTimeout(function() {
+            document.getElementsByTagName('canvas')[0].style.webkitFilter = 'blur(2px)';
+          }, 100);
+
+
+          // Submit the form with an ajax/jsonp request.
+          // Based on http://stackoverflow.com/a/15120409/215821
+          function submitSubscribeForm($form) {
+              $.ajax({
+                  type: "GET",
+                  url: $form.attr("action"),
+                  data: $form.serialize(),
+                  cache: false,
+                  dataType: "jsonp",
+                  jsonp: "c", // trigger MailChimp to return a JSONP response
+                  contentType: "application/json; charset=utf-8",
+
+                  error: function(error){
+                      // According to jquery docs, this is never called for cross-domain JSONP requests
+                  },
+
+                  success: function(data){
+                      var resultMessage = data.msg || "Sorry. Unable to subscribe. Please try again later."
+
+                      var helper = $('.msg-helper');
+                      if (data.result != "success") {
+                        helper.removeClass('success');
+                        helper.addClass('error');
+                          if (data.msg && data.msg.indexOf("already subscribed") >= 0) {
+                              helper.text("You're already subscribed. Thank you.");
+                          } else {
+                            if (data.msg.split('-').length >= 2) {
+                              helper.text(data.msg.split('-')[1]);
+                            } else {
+                              helper.text(data.msg);
+                            }
+                          }
+                      } else {
+                        helper.removeClass('error');
+                          helper.addClass('success');
+                          helper.text("Thank you!\nYou must confirm the subscription in your inbox.");
+                      }
+                      helper.fadeIn();
+                  }
+              });
+          }
+
+          $("#mc-embedded-subscribe-form").submit(function(e){
+            e.preventDefault();
+            submitSubscribeForm($("#mc-embedded-subscribe-form"));
+        });
+        </script>
+
+        <!-- Google Analytics -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-23939953-3','auto');ga('send','pageview');
+        </script>
+
+<!-- Hotjar Tracking Code for cluud.io -->
+<script>
+    (function(f,b){
+        var c;
+        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+        f._hjSettings={hjid:35274, hjsv:4};
+        c=b.createElement("script");c.async=1;
+        c.src="//static.hotjar.com/c/hotjar-"+f._hjSettings.hjid+".js?sv="+f._hjSettings.hjsv;
+        b.getElementsByTagName("head")[0].appendChild(c); 
+    })(window,document);
+</script>
+    </body>
+</html>
